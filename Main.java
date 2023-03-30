@@ -9,6 +9,7 @@ public class Main {
         d.inserer(d,"test");
         System.out.println(d.existe(d,"oukha"));
         System.out.println(d.existe(d,"help"));
-
+        d.main(d,new String[]{"oukha","zineb","banana"});
+        System.out.println(d.existe(d,"banana"));
     }
     }
